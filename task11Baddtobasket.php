@@ -8,4 +8,4 @@
     $expireTime = time() + 60*60*24;
     setcookie("basket", json_encode($basket), $expireTime, '/webtasks/week12');
 ?>
-<a href='/webtasks/week12/task11B.php'>Back</a>
+<a href='/week12/task11B.php'>Back</a>
